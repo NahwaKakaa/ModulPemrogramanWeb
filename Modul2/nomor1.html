@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Pengajuan KTP</title>
+    <style>
+        table, td, tr {
+            border: none;
+        }
+    </style>
+</head>
+<body style="display: flex; justify-content: center;">
+    <div style="border: 1px solid black; padding: 10px; display: inline-block; max-width: 35%;">
+        <table align="center" border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+            <tr>
+                <td bgcolor="red" colspan="2" align="center" style="color: white; font-weight: bold; padding: 15px;">Form Pengajuan KTP</td>
+            </tr>
+            <tr>
+                <td style="width: 40%; height: 40%;">Nomor Pendaftaran</td>
+                <td style="display: flex; gap: 5%;">
+                    <input type="text" style="width: 10%; padding: 2%; text-align: center;" height="10%" maxlength="1">
+                    <input type="text" style="width: 10%; padding: 2%; text-align: center;" height="10%" maxlength="1">
+                    <input type="text" style="width: 10%; padding: 2%; text-align: center;" height="10%" maxlength="1">
+                    <input type="text" style="width: 10%; padding: 2%; text-align: center;" height="10%" maxlength="1">
+                    <input type="text" style="width: 10%; padding: 2%; text-align: center;"maxlength="1">
+                </td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" placeholder="Nama Lengkap" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" placeholder="Alamat Lengkap" style="width: 100%;"></textarea></td>
+            </tr>
+            <tr>
+                <td>Provinsi</td>
+                <td>
+                    <select name="provinsi" style="width: 100%;">
+                        <option value="Aceh">Aceh</option>
+                        <option value="Sumatera Barat">Sumatera Barat</option>
+                        <option value="Sumatera Utara">Sumatera Utara</option>
+                        <option value="Riau">Riau</option>
+                        <option value="Kepulauan Riau">Kepulauan Riau</option>
+                        <option value="Jambi">Jambi</option>
+                        <option value="Bengkulu">Bengkulu</option>
+                        <option value="Sumatera Selatan">Sumatera Selatan</option>
+                        <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
+                        <option value="Lampung">Lampung</option>
+                        <option value="DKI Jakarta">DKI Jakarta</option>
+                        <option value="Jawa Barat">Jawa Barat</option>
+                        <option value="Jawa Tengah">Jawa Tengah</option>
+                        <option value="DI Yogyakarta">DI Yogyakarta</option>
+                        <option value="Jawa Timur">Jawa Timur</option>
+                        <option value="Banten">Banten</option>
+                        <option value="Kalimantan Barat">Kalimantan Barat</option>
+                        <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                        <option value="Kalimntan Selatan">Kalimantan Selatan</option>
+                        <option value="Kalimantan Utara">Kalimantan Utara</option>
+                        <option value="kalimantan Timur">Kalimantan Timur</option>
+                        <option value="Sulawesi Utara">Sulawesi Utara/option>
+                        <option value="Gorontalo">Gorontalo</option>
+                        <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                        <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                        <option value="Sulawesi Barat">Sulawesi Barat</option>
+                        <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                        <option value="Bali">Bali</option>
+                        <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                        <option value="Nusa Tengggara Timur">Nusa Tenggara Timur</option>
+                        <option value="Maluku">Maluku</option>
+                        <option value="Maluku Utara">Maluku Utara</option>
+                        <option value="Papua Barat">Papua Barat</option>
+                        <option value="Papua">Papua</option>
+                        <option value="Papua Tengah">Papua Tengah</option>
+                        <option value="Papua Pegunungan">Papua Pegunungan</option>
+                        <option value="Papua Selatan">Papua Selatan</option>
+                        <option value="Papua Barat Daya">Papua Barat Daya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Kota</td>
+                <td>
+                    <input type="text" name="kota" placeholder="Kota" style="width: 35%;"> 
+                    Kec. <input type="text" name="kecamatan" placeholder="Kecamatan" style="width: 35%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td><input type="text" name="pekerjaan" placeholder="Pekerjaan" style="width: 50%;"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jk" value="Pria">Pria
+                    <input type="radio" name="jk" value="Wanita" style="margin-left: 25%;">Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>Tempat/ Tanggal Lahir</td>
+                <td>
+                    <input type="text" name="tempatLahir" placeholder="Tempat Lahir" style="width: 33%; margin-right: 10%;"> 
+                    <input type="date" name="tglLahir" style="width: 50%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Kelengkapan Berkas</td>
+                <td>
+                    <input type="checkbox" name="kk" value="1">FC. KK
+                    <input type="checkbox" name="pengantar" value="1" style="margin-left: 5%; margin-bottom: 6%;">Surat Pengantar <br>
+                    <input type="checkbox" name="foto" value="1">Pas Foto
+                    <input type="checkbox" name="domisili" value="1" style="margin-left: 4%;">Surat Domisili <br>
+                </td>
+            </tr>
+            <tr>
+                <td>File Scan</td>
+                <td><input type="file" name="fileScan" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Pengajuan">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

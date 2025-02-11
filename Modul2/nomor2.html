@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Kuliah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 30px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+    .blue {
+      background-color: #4dd0e1;
+    }
+    td[colspan] {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Jadwal Kuliah</h1>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Jam</th>
+        <th colspan="6">Hari</th>
+      </tr>
+      <tr>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <th>Rabu</th>
+        <th>Kamis</th>
+        <th>Jum'at</th>
+        <th>Sabtu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>07:00-08:00</td>
+        <td class="blue" rowspan="2">Praktikum Web</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="4"></td>
+        <td rowspan="4"></td>
+      </tr>
+      <tr>
+        <td>08:00-09:00</td>
+        <td class="blue" rowspan="2">Praktikum Java</td>
+        <td class="blue" rowspan="3">Java Lanjut</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>09:00-10:00</td>
+        <td></td>
+        <td class="blue" rowspan="2">Praktikum Jaringan</td>
+      </tr>
+      <tr>
+        <td>10:00-11:20</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11:20-13:00</td>
+        <td colspan="6" class="highlight">Ishoma</td>
+      </tr>
+      <tr>
+        <td>13:00-14:00</td>
+        <td class="blue" rowspan="2">Web</td>
+        <td></td>
+        <td></td>
+        <td class="blue" rowspan=" 2">Jaringan</td>
+        <td rowspan="2"></td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr>
+        <td>14:00-15:00</td>
+        <td></td>
+        <td></td> 
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
