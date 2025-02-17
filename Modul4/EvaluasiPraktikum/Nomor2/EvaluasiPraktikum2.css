@@ -5,7 +5,7 @@ body {
 #hasil {
     display: flex;
     align-items: center;
-    height: 150px;
+    height: 120px;
     max-height: 200px;
     padding: 10px;
     font-size: 60px;
