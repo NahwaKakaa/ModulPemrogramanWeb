@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #070707;
+    background-color: #2ccee4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container P {
+    margin: 0px;
+}
+
+.container input[type="text"] {
+    padding: 5px;
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.container button {
+    padding: 4px;
+    width: 30%;
+    border: 1px solid #ddd;
+    background-color: #0d8a8a;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #063541;
+}
+
+.output {
+    margin-top: 5px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.typing-message {
+    color: #000000;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
