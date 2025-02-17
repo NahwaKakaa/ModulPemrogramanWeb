@@ -1,32 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
-    background-color: #f4f4f4;
-}
-
-.container {
-    background: white;
-    padding: 20px;
-    width: 300px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-input, button {
-    margin-top: 10px;
-    padding: 8px;
-    width: 80%;
+    margin: 2px 5px;
 }
 
 #hasil {
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    max-height: 200px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 60px;
     font-weight: bold;
-    display: none;
-    border-radius: 5px;
 }
 
 .hijau {
