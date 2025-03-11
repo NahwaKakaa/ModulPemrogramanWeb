@@ -14,7 +14,7 @@ function showTypingMessage() {
 function showComment() {
     const input = commentBox.value;
     if (input) {
-        output.innerHTML = "<b>Javascript </b>: " + input;
+        output.innerHTML = "<b>Nahwaa </b>: " + input;
         typingMessage.innerHTML = "";
         commentBox.value = "";
     } else {
