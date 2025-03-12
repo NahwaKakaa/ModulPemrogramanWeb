@@ -4,17 +4,18 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: #2a2a2a;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 250px;
+    width: 300px;
     padding: 20px;
-    border: 1px solid #070707;
-    background-color: #2ccee4;
-    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #05006c;
+    background-color: #ff0000;
+    font-family: sans-serif;
 }
 
 .container P {
@@ -26,20 +27,20 @@ body {
     width: 80%;
     margin-top: 0px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #2a2a2a;
 }
 
 .container button {
     padding: 4px;
     width: 30%;
-    border: 1px solid #ddd;
-    background-color: #0d8a8a;
+    border: 1px solid #000000;
+    background-color: #000c58;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
 .container button:hover {
-    background-color: #063541;
+    background-color: #ffffff;
 }
 
 .output {
